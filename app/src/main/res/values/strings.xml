@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercise 1</string>
+    <string name="message_edit_text_hint">Text something</string>
+    <string name="preview_button_text">Preview</string>
+    <string name="no_email_client_error">No email client found</string>
+    <string name="send">Send</string>
+    <string name="no_text_message">No text entered. Enter some text</string>
+    <string name="internal_error">Internal error</string>
+</resources>
