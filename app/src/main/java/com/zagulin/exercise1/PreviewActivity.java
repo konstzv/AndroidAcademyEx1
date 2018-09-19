@@ -37,11 +37,13 @@ public class PreviewActivity extends AppCompatActivity implements View.OnClickLi
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preview);
-        if (getIntent() == null) {
+        setContentView(R.layout.activity_preview);
+        Intent intent = getIntent();
+        if (intent == null) {
             Log.e(TAG, "intent is null");
             return;
         }
-        message = getIntent().getStringExtra(EXTRA_EMAIL_MESSAGE_KEY);
+        message = intent.getStringExtra(EXTRA_EMAIL_MESSAGE_KEY);
         if (message == null) {
             Log.e(TAG, "message from intent extra is null");
             return;
