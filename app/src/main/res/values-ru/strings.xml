@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Упражнение 1</string>
+    <string name="message_edit_text_hint">Напишите что-нибудь</string>
+    <string name="preview_button_text">Предварительный просмот</string>
+    <string name="no_email_client_error">На устройстве нет программ для отправки почты</string>
+    <string name="send">Отправить</string>
+    <string name="no_text_message">Текст не введен. Введите какой-нибудь текст</string>
+    <string name="internal_error">Внутреняя ошибка приложения</string>
+</resources>
